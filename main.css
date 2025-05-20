@@ -1,0 +1,127 @@
+body {
+    background-color: #2c2c2c;
+    color: #fffefc;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    /*color: #fbca1f;*/
+    text-align: left;
+    font-size: 5em;
+    padding-left: 5%;
+    /*margin-bottom: 50px;*/
+}
+
+p {
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    padding: 5%;
+    padding-top: 1%;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.list {
+    margin-top: 20px;
+    text-align: left;
+    background-color: #1d1d1d;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.list h2 {
+    margin-left: 20%;
+    font-size: 1.9em;
+    margin-bottom: 15%;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    gap: 15px;
+}
+
+ul li {
+    font-size: 1.4em;
+    margin-bottom: 12%;
+    margin-left: 10%;
+}
+
+ul li img {
+    border-radius: 3px;
+    margin-right: 10%;
+    vertical-align: middle;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fffefc;
+}
+
+ul li a:hover {
+    color: #fbca1f;
+    transition: 0.3s;
+}
+
+  button {
+    margin-top: 20%;
+    margin-left: 25%;
+    height:fit-content;
+    background: #fbca1f;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: wait;
+  }
+  
+  button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+  }
+  
+  button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Вирівнює по висоті вікна */
+    text-align: center;
+}
+
+.menu h1 {
+    margin-bottom: 20px; /* Відступ між заголовком і кнопками */
+}
+
+.menu button {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 5px 0; /* Відступ між кнопками */
+    font-size: 25px;
+}
